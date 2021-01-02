@@ -1,0 +1,8 @@
+{% extends 'base.html' %}
+{% block title %} Router
+{% endblock title %}
+{% block content %}
+{% for data in data %}
+    <h3>{{ data.nama }}</h3><h3>{{ data.host }}</h3>
+{% endfor %}
+{% endblock content %}
